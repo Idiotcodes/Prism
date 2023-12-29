@@ -4,6 +4,10 @@ import ErrorImage from "@/assets/error.gif";
 import Image from "next/image";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Prism | Error",
+};
+
 function error({ error, reset }: any) {
   return (
     <div className="fixed w-screen h-screen top-0 bg-base-300">

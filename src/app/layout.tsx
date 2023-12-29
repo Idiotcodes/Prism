@@ -5,8 +5,8 @@ import Script from "next/script";
 import Header from "@/partials/Header";
 import { Footer } from "@/partials/Footer";
 
-const APP_NAME = "Kitsune";
-const APP_DEFAULT_TITLE = "Kitsune | Anime Streaming";
+const APP_NAME = "Prism";
+const APP_DEFAULT_TITLE = "Prism | Anime Streaming";
 const APP_DESCRIPTION = "Stream your favourite anime with ease and no ads";
 
 export const metadata: Metadata = {

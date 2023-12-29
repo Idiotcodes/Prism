@@ -2,6 +2,10 @@ import { TWaifuCategory } from "@/@types/WaifuCategory";
 import useWaifu from "@/hooks/useWaifu";
 import KitsuneMasonry from "./KitsuneMasonry";
 
+export const metadata = {
+  title: "Prism | Waifu",
+};
+
 async function page() {
   const { getManyWaifu } = useWaifu();
   let category: TWaifuCategory = "waifu";

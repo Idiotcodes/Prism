@@ -32,7 +32,7 @@ async function page({ searchParams }: any) {
       {/*     /> */}
       {/*   ))} */}
       {/* </div> */}
-      Under Maintenance
+      <p>Under Maintenance</p>
     </div>
   );
 }
