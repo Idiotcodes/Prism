@@ -1,7 +1,7 @@
 import React from "react";
 
 export const metadata = {
-  title: "Prism | DMCA",
+  title: "Kitsune | DMCA",
 };
 
 function page() {
@@ -50,8 +50,8 @@ function page() {
       </ul>
       <p>
         Please send your DMCA takedown notice to{" "}
-        <a href="mailto:erwin@outlook.com" className="underline">
-          erwin@outlook.com
+        <a href="mailto:kaizoku_luffy@outlook.com" className="underline">
+          kaizoku_luffy@outlook.com
         </a>
         . We will promptly investigate and take appropriate action in accordance
         with the DMCA.

@@ -18,9 +18,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const info: IAnimeInfo = await getInfo(id);
 
   return {
-    title: "Prism | " + info.title,
+    title: "Kitsune | " + info.title,
     openGraph: {
-      title: "Watch " + info.title + " free with no Ads on Prism",
+      title: "Watch " + info.title + " free with no Ads on Kitsune",
       images: [info.image],
     },
   };

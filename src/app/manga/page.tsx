@@ -1,9 +1,5 @@
 import React from "react";
 
-export const metadata = {
-  title: "Prism | Manga",
-};
-
 function page() {
   return (
     <div className="m-5 lg:m-10">
