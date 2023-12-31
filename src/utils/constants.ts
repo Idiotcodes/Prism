@@ -1,5 +1,5 @@
 export let DOMAIN_URL = `${
-  process.env.NODE_ENV === "production" ? "http" : "http"
+  process.env.NODE_ENV === "production" ? "https" : "http"
 }://${process.env.VERCEL_URL}`;
 
 export let BASE_URI = DOMAIN_URL + "/api";
