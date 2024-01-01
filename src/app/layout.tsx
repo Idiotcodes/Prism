@@ -43,7 +43,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html data-theme="dracula" lang="en" className={roboto.className}>
+    <html data-theme="black" lang="en" className={roboto.className}>
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-X9RZ58XPH1"
         strategy="afterInteractive"
