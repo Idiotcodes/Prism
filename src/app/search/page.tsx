@@ -3,6 +3,7 @@ import { redirect } from "next/navigation";
 import useAnime from "@/hooks/useAnime";
 import AnimeCard from "@/components/AnimeCard";
 import { ISearchAnime } from "@/@types/AnimeType";
+import Head from 'next/head';
 
 async function page({ searchParams }: any) {
   const { getSearch } = useAnime();
@@ -16,6 +17,10 @@ async function page({ searchParams }: any) {
   // } = await getSearch(searchParams.q);
   //
   return (
+    <>
+      <Head>
+        <script async src="https://arc.io/widget.min.js#gM16djwH"></script>
+      </Head>
     <div className="m-2 lg:m-10 flex flex-col items-center">
       {/* <p className="text-2xl lg:text-3xl mt-20"> */}
       {/*   Search Result for{" "} */}
@@ -34,6 +39,7 @@ async function page({ searchParams }: any) {
       {/* </div> */}
       Under Maintenance
     </div>
+    </>
   );
 }
 
