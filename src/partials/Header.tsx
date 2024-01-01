@@ -2,10 +2,14 @@ import React from "react";
 import SearchAnime from "@/partials/SearchAnime";
 import { nightTokyo } from "@/utils/fonts";
 import Image from "next/image";
+import Head from 'next/head';
 
 function Header() {
   return (
     <>
+      <Head>
+        <script async src="https://arc.io/widget.min.js#gM16djwH"></script>
+      </Head>
       <div className="navbar bg-gradient-to-b from-base-300 to-transparent lg:absolute lg:top-0 lg:z-50">
         <div className="navbar-start">
           <div className="dropdown">
