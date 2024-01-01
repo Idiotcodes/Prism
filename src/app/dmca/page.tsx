@@ -7,6 +7,7 @@ export const metadata = {
 
 function page() {
   return (
+   <>
     <Head>
           <script async src="https://arc.io/widget.min.js#gM16djwH"></script>
     </Head>
@@ -61,6 +62,7 @@ function page() {
         with the DMCA.
       </p>
     </div>
+  </>
   );
 }
 
