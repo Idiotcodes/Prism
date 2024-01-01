@@ -1,4 +1,5 @@
 import React from "react";
+import Head from 'next/head';
 
 export const metadata = {
   title: "Prism | Terms of Service",
@@ -6,6 +7,10 @@ export const metadata = {
 
 function page() {
   return (
+   <>
+    <Head>
+          <script async src="https://arc.io/widget.min.js#gM16djwH"></script>
+    </Head>
     <div className="m-5 lg:m-10 flex flex-col space-y-5">
       <div className="h-20"></div>
       <p className="text-3xl">Terms of Service</p>
@@ -79,6 +84,7 @@ function page() {
         county, state].
       </p>
     </div>
+  </>
   );
 }
 
