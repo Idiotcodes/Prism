@@ -19,7 +19,7 @@ function ContinueWatching() {
 
   return animes !== null && Object.keys(animes).length > 0 ? (
     <div className="mt-20 lg:mt-30">
-      <div className="flex space-x-5 items-center mb-10 text-pink-200 justify-center lg:justify-start">
+      <div className="flex space-x-5 items-center mb-10 justify-center lg:justify-start">
         <p className="text-xl uppercase font-bold tracking-widest lg:text-start">
           Continue Watching
         </p>
