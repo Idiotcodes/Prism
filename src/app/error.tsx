@@ -34,7 +34,7 @@ function error({ error, reset }: any) {
         </div>
       </div>
     </div>
-    <>
+    </>
   );
 }
 
