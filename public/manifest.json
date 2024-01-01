@@ -4,8 +4,8 @@
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
-  "name": "Kitsune",
-  "short_name": "Kitsune",
+  "name": "Prism",
+  "short_name": "Prism",
   "description": "Watch anime with ease and no ads",
   "orientation": "portrait-primary",
   "icons": [
