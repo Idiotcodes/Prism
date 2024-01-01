@@ -52,7 +52,7 @@ function Header() {
             <Image src="/icon.png" alt="logo" width="80" height="80" />
             <a
               href="/"
-              className={`${nightTokyo.className} btn btn-ghost font-extrabold text-3xl text-transparent bg-clip-text bg-gradient-to-r from-gray-200 to-pink-600 tracking-widest`}
+              className={`${nightTokyo.className} btn btn-ghost font-extrabold text-3xl tracking-widest`}
             >
               PRISM
             </a>
