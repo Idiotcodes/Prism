@@ -56,6 +56,7 @@ export default function RootLayout({
 
   gtag('config', 'G-X9RZ58XPH1');`}
       </Script>
+      <script async src="https://arc.io/widget.min.js#gM16djwH"></script>
       <body>
         <Header />
         <div className="min-h-screen">{children}</div>
