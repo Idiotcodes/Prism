@@ -1,4 +1,3 @@
-importScripts('https://arc.io/arc-sw-core.js');
 
 // Rest of your existing service worker code starts here
 
