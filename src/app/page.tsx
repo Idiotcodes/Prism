@@ -15,6 +15,9 @@ export default async function Home() {
   const recentNews: TNewsFeed[] = await getRecentNews();
 
   return (
+    <Head>
+      <script async src="https://arc.io/widget.min.js#gM16djwH"></script>
+    </Head>
     <div>
       <Carousel spotlightInfo={popularAnimes.slice(0, 10)} />
       <div className="xl:flex justify-between">
