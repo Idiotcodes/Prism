@@ -20,7 +20,7 @@ function SearchAnimeCard({
     <Link
       href={`/anime/${id}/watch`}
       onClick={() => cb()}
-      className="flex items-center gap-5 p-5 hover:cursor-pointer hover:bg-base-300 hover:text-pink-200"
+      className="flex items-center gap-5 p-5 hover:cursor-pointer hover:bg-base-300"
     >
       <img
         src={src}

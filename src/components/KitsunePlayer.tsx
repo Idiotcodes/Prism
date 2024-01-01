@@ -82,7 +82,7 @@ function KitsunePlayer({ episodeInfo, animeInfo }: KitsunePlayerProps) {
     playsInline: true,
     autoPlayback: true,
     airplay: true,
-    theme: "#F5316F",
+    theme: "#fff",
     whitelist: ["*"],
     moreVideoAttr: {
       crossOrigin: "anonymous",

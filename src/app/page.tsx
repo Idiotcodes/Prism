@@ -24,7 +24,7 @@ export default async function Home() {
       <Carousel spotlightInfo={popularAnimes.slice(0, 10)} />
       <div className="xl:flex justify-between">
         <div className="lg:m-10 mt-10 flex flex-col items-center justify-center lg:items-start lg:justify-start">
-          <p className="text-xl mb-10 uppercase font-bold text-pink-200 tracking-widest">
+          <p className="text-xl mb-10 uppercase font-bold tracking-widest">
             Recent Release
           </p>
 
@@ -41,7 +41,7 @@ export default async function Home() {
           </div>
           <ContinueWatching />
           <p
-            className={`text-xl mt-20 lg:mt-30 mb-10 uppercase font-bold text-pink-200 tracking-widest`}
+            className={`text-xl mt-20 lg:mt-30 mb-10 uppercase font-bold tracking-widest`}
           >
             Popular Release
           </p>
@@ -58,7 +58,7 @@ export default async function Home() {
           </div>
         </div>
         <div className="lg:m-10 mt-10 flex flex-col items-center justify-center lg:items-start lg:justify-start xl:w-2/3">
-          <h2 className="text-xl mb-10 uppercase font-bold text-pink-200 tracking-widest">
+          <h2 className="text-xl mb-10 uppercase font-bold tracking-widest">
             Recent News
           </h2>
           <div className="flex flex-col space-y-5 m-3 lg:m-0">

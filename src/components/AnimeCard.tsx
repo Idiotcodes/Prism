@@ -56,7 +56,7 @@ function AnimeCard({
             alt={title}
             className="w-full h-[250px] lg:h-[300px] delay-50 object-cover rounded-lg"
           />
-          <div className="absolute bottom-0 p-2 flex flex-col w-full bg-gradient-to-b from-transparent to-pink-900">
+          <div className="absolute bottom-0 p-2 flex flex-col w-full">
             <p className="font-extrabold text-sm capitalize truncate">
               {title}
             </p>

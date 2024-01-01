@@ -40,7 +40,7 @@ function EpisodeFrame({ episode, animeInfo }: Props) {
           onClick={onPrev}
         />
 
-        <p className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-gray-200 to-pink-400">
+        <p className="text-xl font-bold">
           Episode {episode?.number}
         </p>
 

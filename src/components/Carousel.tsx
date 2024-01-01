@@ -55,7 +55,7 @@ function CarouselSingle({
         className="w-full h-full object-cover lg:opacity-50 opacity-30"
       />
       <div className="absolute flex flex-col text-start items-start space-y-5 lg:left-20 left-5 top-10 lg:top-1/3 w-1/2 h-3/4 overflow-hidden">
-        <p className="text-xl lg:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-gray-200 to-pink-300">
+        <p className="text-xl lg:text-5xl font-extrabold">
           {title}
         </p>
         <p
