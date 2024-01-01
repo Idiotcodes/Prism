@@ -40,7 +40,7 @@ function Header() {
               </li>
               <li>
                 <a
-                  href="https://www.buymeacoffee.com/dovakiin0"
+                  href="https://www.buymeacoffee.com/afnanksalal"
                   target="_blank"
                 >
                   Donate
@@ -54,7 +54,7 @@ function Header() {
               href="/"
               className={`${nightTokyo.className} btn btn-ghost font-extrabold text-3xl text-transparent bg-clip-text bg-gradient-to-r from-gray-200 to-pink-600 tracking-widest`}
             >
-              KITSUNE
+              PRISM
             </a>
           </div>
         </div>
@@ -72,7 +72,7 @@ function Header() {
           </ul>
         </div>
         <div className="navbar-end gap-2 hidden lg:flex">
-          <a href="https://www.buymeacoffee.com/dovakiin0" target="_blank">
+          <a href="https://www.buymeacoffee.com/afnanksalal" target="_blank">
             <button className="btn btn-ghost">Donate</button>
           </a>
           <div className="w-full lg:w-1/2 mr-1">

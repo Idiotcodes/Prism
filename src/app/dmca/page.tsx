@@ -1,7 +1,7 @@
 import React from "react";
 
 export const metadata = {
-  title: "Kitsune | DMCA",
+  title: "Prism | DMCA",
 };
 
 function page() {

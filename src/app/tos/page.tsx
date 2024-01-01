@@ -1,7 +1,7 @@
 import React from "react";
 
 export const metadata = {
-  title: "Kitsune | Terms of Service",
+  title: "Prism | Terms of Service",
 };
 
 function page() {
