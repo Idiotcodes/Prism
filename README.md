@@ -10,7 +10,7 @@ _Prism is still under development and may encounter many bugs. Feel free to open
 ## Features
 
 - **No Ads** - No ads, no popups, no redirects, no bullshit.
-- **PWA Support** - Kitsune is a PWA, which means you can install it on your phone.
+- **PWA Support** - Prism is a PWA, which means you can install it on your phone.
 
 ## Contributing
 
