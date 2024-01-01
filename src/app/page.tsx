@@ -6,6 +6,7 @@ import useNews from "@/hooks/useNews";
 import { TNewsFeed } from "@/@types/NewsType";
 import ContinueWatching from "@/partials/ContinueWatching";
 import { IAnimePopular, IAnimeRecent } from "@/@types/AnimeType";
+import Head from 'next/head';
 
 export default async function Home() {
   const { getRecent, getPopular } = useAnime();
@@ -15,6 +16,10 @@ export default async function Home() {
   const recentNews: TNewsFeed[] = await getRecentNews();
 
   return (
+    <>
+      <Head>
+        <script async src="https://arc.io/widget.min.js#gM16djwH"></script>
+      </Head>
     <div>
       <Carousel spotlightInfo={popularAnimes.slice(0, 10)} />
       <div className="xl:flex justify-between">
@@ -64,5 +69,6 @@ export default async function Home() {
         </div>
       </div>
     </div>
+    </>
   );
 }
