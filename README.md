@@ -1,5 +1,5 @@
 ![logo.png](logo.png)
-<img src="logo.png" alt="Logo" width="200px" />
+
 
 Watch your favourite anime anywhere, anytime. No Ads.
 
